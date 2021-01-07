@@ -1,4 +1,5 @@
 import setuptools
+import versioneer
 
 with open("README.rst", "r") as fh:
     long_description = fh.read()
@@ -7,9 +8,10 @@ with open("requirements.txt", "r") as fh:
 
 setuptools.setup(
     name="is-number",
-    version="0.0.1",
-    author="Jacob Tomlinson",
-    author_email="jacob@tomlinson.email",
+    version=versioneer.get_version(),
+    cmdclass=versioneer.get_cmdclass(),
+    author="Quastrado",
+    author_email="quastrado@gmail.com",
     description="A Python library to determine if something is a number.",
     long_description=long_description,
     long_description_content_type="text/x-rst",
