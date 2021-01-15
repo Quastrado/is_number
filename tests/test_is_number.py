@@ -5,6 +5,6 @@ from is_number.__init__ import is_number
 class JustTest(unittest.TestCase):
 
 
-    def test_reverse_assert(self):
+    def test_rright_assert(self):
         result = is_number(20)
-        self.assertEqual(result, False)
+        self.assertEqual(result, True)
