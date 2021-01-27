@@ -15,7 +15,6 @@ setuptools.setup(
     description="A Python library to determine if something is a number.",
     long_description=long_description,
     long_description_content_type="text/x-rst",
-    package_dir = {'': 'is_number'},
     packages = setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
