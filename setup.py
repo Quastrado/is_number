@@ -16,7 +16,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/x-rst",
     package_dir = {'': 'is_number'},
-    packages = setuptools.find_packages(where='is_number'),
+    packages = setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
